@@ -1,0 +1,183 @@
+{
+    "sniffer": {
+        "sn": "47F745082791B043"
+    },
+
+    "max32570_board0": {
+        "desc": "marked sn 0, for OpenOCD",
+        "daplink": "0409000080fe82cc00000000000000000000000097969906"
+    },
+
+    "max32655_board1": {
+        "desc": "marked sn 0, for tests: func, timing,",
+        "target_lower": "max32655",
+        "target_upper": "MAX32655",
+        "type": "EvKit_V1",
+        "daplink": "04091702d4f18ac600000000000000000000000097969906",
+        "DAP_sn":  "04091702d4f18ac600000000000000000000000097969906",
+        "uart0":  "D309ZDFB",
+        "uart3":  "DT03O9WB",
+        "con_sn": "D309ZDFB",
+        "hci_sn": "DT03O9WB",
+        "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O9WB-if00-port0",
+        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDFB-if00-port0"
+    },
+
+    "max32655_board2": {
+        "desc": "marked sn 1, for tests: func, timing,",
+        "target_lower": "max32655",
+        "target_upper": "MAX32655",
+        "type": "EvKit_V1",
+        "daplink": "04091702f7f18a2900000000000000000000000097969906",
+        "DAP_sn":  "04091702f7f18a2900000000000000000000000097969906",
+        "uart0":  "D309ZDEM",
+        "uart3":  "DT03OFQ0",
+        "con_sn": "D309ZDEM",
+        "hci_sn": "DT03OFQ0",
+        "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFQ0-if00-port0",
+        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEM-if00-port0"
+    },
+
+    "max32655_board_2": {
+        "desc": "marked sn #2, for per test,",
+        "chip_lc": "max32655",
+        "chip_uc": "MAX32655",
+        "type": "EvKit_V1",
+        "DAP_sn": "04090000ceeb82b000000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_04090000ceeb82b000000000000000000000000097969906-if01",
+        "con_sn": "D309ZDEP",
+        "hci_sn": "DT03OH8D",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEP-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OH8D-if00-port0",
+        "sw_model": "USB-1SP16T-83H",
+        "sw_state": "1"
+    },
+
+    "max32665_board1": {
+        "desc": "marked sn 13, for tests: timing",
+        "daplink": "0409000098d9439b00000000000000000000000097969906",
+        "uart1": "D30A1X9X",
+        "uart0": "DT03O747",
+        "con_sn": "D30A1X9X",
+        "hci_sn": "DT03O747"
+    },
+
+    "max32665_board_w3": {
+        "desc": "marked sn w3, for per test,",
+        "chip_lc": "max32665",
+        "chip_uc": "MAX32665",
+        "type": "EvKit_V1",
+        "DAP_sn": "04090000f8dd43b800000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_04090000f8dd43b800000000000000000000000097969906-if01",
+        "con_sn": "D3091LEX",
+        "hci_sn": "DT03O7LC",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D3091LEX-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O7LC-if00-port0",
+        "sw_model": "USB-1SP16T-83H",
+        "sw_state": "2"
+    },
+
+    "max32665_board_w4": {
+        "desc": "marked w4, MAX32665 110P WLP",
+        "id": "",
+        "sw_model": "USB-1SP16T-83H",
+        "sw_state": "4"
+    },
+
+    "max32690_board_w1": {
+        "desc": "original sn 24, now changed to w1",
+        "daplink": "04091702b55e4e9600000000000000000000000097969906",
+        "uart2": "D30AKVTH",
+        "uart3": "04091702b55e4e9600000000000000000000000097969906"
+    },
+
+    "max32690_board_old_w1": {
+        "desc": "marked sn w1, for timing test, ...",
+        "daplink": "040917014d8e03fc00000000000000000000000097969906",
+        "uart2": "D30ALJPW",
+        "uart3": "040917014d8e03fc00000000000000000000000097969906"
+    },
+
+    "max32690_board_w2": {
+        "desc": "marked sn w2, for PER test, ...",
+        "chip_lc": "max32690",
+        "chip_uc": "MAX32690",
+        "type": "EvKit_V1",
+        "DAP_sn": "0409170211cd0dd400000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0409170211cd0dd400000000000000000000000097969906-if01",
+        "con_sn": "D30ALJQ8",
+        "hci_sn": "0409170211cd0dd400000000000000000000000097969906",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJQ8-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0409170211cd0dd400000000000000000000000097969906-if01",
+        "sw_model": "USB-1SP16T-83H",
+        "sw_state": "4"
+    },
+    
+    "max32690_board_A1": {
+        "desc": "PCB-00247-A-0, WLP_ME18, ME18 TO ME17 TEST BOARD, CN1-UART0 (hci), CN2-UART1 (console)",
+        "chip_lc": "max32690",
+        "chip_uc": "MAX32690",
+        "type": "WLP_V1",
+        "DAP_sn": "0409170289b20d8200000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0409170289b20d8200000000000000000000000097969906-if01",
+        "con_sn": "D30ALJVM",
+        "hci_sn": "D30ALJVK",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJVK-if00-port0",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJVM-if00-port0",
+        "sw_model": "USB-1SP16T-83H",
+        "sw_state": "6"
+    },
+
+    "max32690_board_A5": {
+        "desc": "PCB-00247-A-0, WLP_ME18, ME18 TO ME17 TEST BOARD, CN1-UART0, CN2-UART1 (console)",
+        "target_lower": "max32690",
+        "target_upper": "MAX32690",
+        "type": "WLP_V1",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917012a8e03a400000000000000000000000097969906-if01",
+        "DAP_sn": "040917012a8e03a400000000000000000000000097969906",
+        "CN1_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEM-if00-port0",
+        "CN2_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEN-if00-port0",
+        "con_sn": "D30ALWEN",
+        "hci_sn": "D30ALWEM"
+    },
+
+    "max32690_board_A6": {
+        "desc": "PCB-00247-A-0, WLP_ME18, ME18 TO ME17 TEST BOARD, CN1-UART0, CN2-UART1 (console)",
+        "target_lower": "max32690",
+        "target_upper": "MAX32690",
+        "type": "WLP_V1",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917015f8d03d800000000000000000000000097969906-if01",
+        "DAP_sn": "040917015f8d03d800000000000000000000000097969906",
+        "CN1_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWF5-if00-port0",
+        "CN2_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWF6-if00-port0",
+        "con_sn": "D30ALWF6",
+        "hci_sn": "D30ALWF5"
+    },
+
+    "nRF52840_1": {
+        "desc": "PER test, master board",
+        "DAP_sn": "1050234264",
+        "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050234264-if00",
+        "sw_model": "USB-1SP8T-63H",
+        "sw_state": "2"
+    },
+
+    "nRF52840_2": {
+        "desc": "",
+        "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050288497-if00"
+    },
+    "rsl15_1" : {
+        "desc" : "OnSemi,RSL15",
+        "DAP_sn": "908805860",
+        "hci_id" : "/dev/serial/by-id/usb-SEGGER_J-Link_000908805860-if00",
+        "sw_model": "USB-1SP8T-63H",
+        "sw_state" : "3"
+    },
+
+    "RS_SA": {
+        "desc": "Rhode and Schwarz spectrum analyzer",
+        "ip": "10.20.14.110",
+        "sw_model": "USB-1SP8T-63H",
+        "sw_state": "1"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "desc": "configurations for RF-PHY-closed CI tests.",
+    
+    "tests": {
+        "test_full_per.yml": {
+            "no_skip": "0",
+
+            "do_max32655": "1",
+            "max32655_pkglen_range": "250",
+            "max32655_phy_range": "1",
+            "max32655_step": "0",
+
+            "do_max32665": "0",
+            "max32665_pkglen_range": "250 0",
+            "max32665_phy_range": "1 2 3 4",
+            "max32665_step": "20",
+
+            "do_max32690": "0",
+            "max32690_pkglen_range": "250 0",
+            "max32690_phy_range": "1 2 3 4",
+            "max32690_step": "10"
+        }
+    }
+}
