@@ -13,21 +13,25 @@
             "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
             "max32655_phy_range": "3 4",
+            "max32655_attens": "20,90",
             "max32655_step": "0",
     
             "do_max32665": "0",
             "max32665_pkglen_range": "250 0",
             "max32665_phy_range": "1 2 3 4",
+            "max32665_attens": "",
             "max32665_step": "0",
     
             "do_max32690": "0",
             "max32690_pkglen_range": "250 0",
             "max32690_phy_range": "1 2 3 4",
+            "max32690_attens": "",
             "max32690_step": "0",
 
             "do_max32690_wlp": "0",
             "max32690_wlp_pkglen_range": "250 0",
             "max32690_wlp_phy_range": "1 2 3 4",
+            "max32690_wlp_attens": "",
             "max32690_wlp_step": "0"
         },
 
@@ -39,7 +43,7 @@
             "retry_limit": 4,
             "start_time": "",
 
-            "do_max32655": "0",
+            "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
             "max32655_phy_range": "1 3",
             "max32655_step": "0",
@@ -54,7 +58,7 @@
             "max32690_phy_range": "1",
             "max32690_step": "1",
 
-            "do_max32690_wlp": "1",
+            "do_max32690_wlp": "0",
             "max32690_wlp_pkglen_range": "250 0",
             "max32690_wlp_phy_range": "1",
             "max32690_wlp_step": "0"
@@ -102,7 +106,7 @@
 
             "max32690_wlp": [
                 "nRF52840_2",
-                "NOT AVAILABLE"
+                "max32690_board_A5"
             ]
         }
     }

@@ -135,10 +135,12 @@
         "type": "WLP_V1",
         "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917012a8e03a400000000000000000000000097969906-if01",
         "DAP_sn": "040917012a8e03a400000000000000000000000097969906",
-        "CN1_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEM-if00-port0",
-        "CN2_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEN-if00-port0",
         "con_sn": "D30ALWEN",
-        "hci_sn": "D30ALWEM"
+        "hci_sn": "D30ALWEM",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEN-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEM-if00-port0",        
+        "sw_model": "NOT CONNECTED",
+        "sw_state": "NOT CONNECTED"
     },
 
     "max32690_board_A6": {
