@@ -130,8 +130,8 @@
 
     "max32690_board_A5": {
         "desc": "PCB-00247-A-0, WLP_ME18, ME18 TO ME17 TEST BOARD, CN1-UART0, CN2-UART1 (console)",
-        "target_lower": "max32690",
-        "target_upper": "MAX32690",
+        "chip_lc": "max32690",
+        "chip_uc": "MAX32690",
         "type": "WLP_V1",
         "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917012a8e03a400000000000000000000000097969906-if01",
         "DAP_sn": "040917012a8e03a400000000000000000000000097969906",
@@ -143,8 +143,8 @@
 
     "max32690_board_A6": {
         "desc": "PCB-00247-A-0, WLP_ME18, ME18 TO ME17 TEST BOARD, CN1-UART0, CN2-UART1 (console)",
-        "target_lower": "max32690",
-        "target_upper": "MAX32690",
+        "chip_lc": "max32690",
+        "chip_uc": "MAX32690",
         "type": "WLP_V1",
         "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917015f8d03d800000000000000000000000097969906-if01",
         "DAP_sn": "040917015f8d03d800000000000000000000000097969906",
@@ -164,8 +164,12 @@
 
     "nRF52840_2": {
         "desc": "",
-        "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050288497-if00"
+        "DAP_sn": "1050288497",
+        "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050288497-if00",
+        "sw_model": "NOT CONNECTED",
+        "sw_state": "NOT CONNECTED"
     },
+
     "rsl15_1" : {
         "desc" : "OnSemi,RSL15",
         "DAP_sn": "908805860",
@@ -179,5 +183,70 @@
         "ip": "10.20.14.110",
         "sw_model": "USB-1SP8T-63H",
         "sw_state": "1"
+    },
+
+    "sniffer_ying": {
+        "sn": "C7526B63B7BD5962"
+    },
+
+    "max32655_board_y1": {
+        "desc": "con: uart0, hci: uart3",
+        "chip_lc": "max32655",
+        "chip_uc": "MAX32655",
+        "type": "EvKit_V1",
+        "DAP_sn":  "0444170169c5c14600000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0444170169c5c14600000000000000000000000097969906-if01",        
+        "con_sn": "D3073IDG",
+        "hci_sn": "DT03OFRJ",
+        "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D3073IDG-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFRJ-if00-port0",
+        "sw_model": "NOT CONNECTED",
+        "sw_state": "NOT CONNECTED"
+    },                                                                                                      
+
+    "max32655_board_y2": { 
+        "chip_lc": "max32655",
+        "chip_uc": "MAX32655",
+        "type": "EvKit_V1",
+        "DAP_sn":  "044417016bd8439a00000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_044417016bd8439a00000000000000000000000097969906-if01",
+        "uart0": "D309ZDE9",
+        "cn1": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDE9-if00-port0",
+        "uart3": "DT03NSU1",
+        "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03NSU1-if00-port0",
+        "con_sn": "D309ZDE9",
+        "hci_sn": "DT03NSU1"
+    },
+
+    "max32665_board_2": {
+        "desc": "ying, uart0: hci, uart1: con",
+        "chip_lc": "max32665",
+        "chip_uc": "MAX32665",
+        "type": "EvKit_V1",
+        "DAP_sn": "0409000069f9823300000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0409000069f9823300000000000000000000000097969906-if01",
+        "con_sn": "D30A1X9V",
+        "hci_sn": "DT03OGQ4",
+        "sw_model": "NOT CONNECTED",
+        "sw_state": "NOT CONNECTED"
+    },
+
+    "max32690_board_old_24_to_wall-e_w1": {
+        "daplink": "04091702b55e4e9600000000000000000000000097969906",        
+        "uart2": "D30AKVTH",
+        "uart3": "04091702b55e4e9600000000000000000000000097969906"
+    },
+
+    "max32690_board_3": {
+        "desc": "ying, the old wall-e w1, now 3",
+        "chip_lc": "max32690",
+        "chip_uc": "MAX32690",
+        "type": "EvKit_V1",
+        "DAP_sn":  "040917014d8e03fc00000000000000000000000097969906",
+        "DAP_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_040917014d8e03fc00000000000000000000000097969906-if01",
+        "uart2": "D30ALJPW",
+        "uart3": "040917014d8e03fc00000000000000000000000097969906",
+        "sw_model": "NOT CONNECTED",
+        "sw_state": "NOT CONNECTED"
     }
 }
