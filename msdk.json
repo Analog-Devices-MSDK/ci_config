@@ -12,17 +12,19 @@
             
             "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
-            "max32655_phy_range": "3 4",
-            "max32655_attens": "20,90",
+            "max32655_phy_range": "1 2 3 4",
+            "max32655_attens": "",
             "max32655_step": "0",
+
+	    "step_and_time": "1, single board, 4.5 hrs. 5, single board 40-50 mins, 20, 15-25  mins.",
     
-            "do_max32665": "0",
+            "do_max32665": "1",
             "max32665_pkglen_range": "250 0",
             "max32665_phy_range": "1 2 3 4",
             "max32665_attens": "",
             "max32665_step": "0",
     
-            "do_max32690": "0",
+            "do_max32690": "1",
             "max32690_pkglen_range": "250 0",
             "max32690_phy_range": "1 2 3 4",
             "max32690_attens": "",
@@ -45,22 +47,26 @@
 
             "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
-            "max32655_phy_range": "1 3",
+            "max32655_phy_range": "1 2 3 4",
+	    "max32655_attens": "",
             "max32655_step": "0",
 
-            "do_max32665": "0",
+            "do_max32665": "1",
             "max32665_pkglen_range": "250",
-            "max32665_phy_range": "1",
+            "max32665_phy_range": "1 2 3 4",
+	    "max32665_attens": "",
             "max32665_step": "0",
 
-            "do_max32690": "0",
+            "do_max32690": "1",
             "max32690_pkglen_range": "250 0",
-            "max32690_phy_range": "1",
-            "max32690_step": "1",
+            "max32690_phy_range": "1 2 3 4",
+	    "max32690_attens": "",
+            "max32690_step": "0",
 
             "do_max32690_wlp": "0",
             "max32690_wlp_pkglen_range": "250 0",
-            "max32690_wlp_phy_range": "1",
+            "max32690_wlp_phy_range": "1 2 3 4",
+	    "max32690_wlp_attens": "",
             "max32690_wlp_step": "0"
         }
     },
