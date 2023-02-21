@@ -1,5 +1,7 @@
 {
     "desc": "configurations for the MSDK CI tests.",
+    "DESC, step_and_time": "1, single board, 4.5 hrs. 2, 3 boars 5.5 hrs, 5, single board 40-50 mins, 20, 15-25  mins.",
+    "DESC, attens": "No whitespace between values",
 
     "tests": {
         "simple_per_test.yml": {
@@ -13,10 +15,8 @@
             "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
             "max32655_phy_range": "1 2 3 4",
-            "max32655_attens": "",
+            "max32655_attens": "60,61",
             "max32655_step": "0",
-
-	    "step_and_time": "1, single board, 4.5 hrs. 5, single board 40-50 mins, 20, 15-25  mins.",
     
             "do_max32665": "1",
             "max32665_pkglen_range": "250 0",
@@ -40,7 +40,8 @@
         "local_full_per_test": {
             "no_skip": "1",
 
-            "commit_id": "37b17c3ab",
+            "repo": "git@github.com:yc-adi/msdk_open.git",
+            "commit_id": "",
             "limit": "99.99",
             "retry_limit": 4,
             "start_time": "",
@@ -48,25 +49,25 @@
             "do_max32655": "1",
             "max32655_pkglen_range": "250 0",
             "max32655_phy_range": "1 2 3 4",
-	    "max32655_attens": "",
-            "max32655_step": "0",
+            "max32655_attens": "",
+            "max32655_step": "2",
 
             "do_max32665": "1",
-            "max32665_pkglen_range": "250",
+            "max32665_pkglen_range": "250 0",
             "max32665_phy_range": "1 2 3 4",
-	    "max32665_attens": "",
-            "max32665_step": "0",
+            "max32665_attens": "",
+            "max32665_step": "2",
 
             "do_max32690": "1",
             "max32690_pkglen_range": "250 0",
             "max32690_phy_range": "1 2 3 4",
-	    "max32690_attens": "",
-            "max32690_step": "0",
+            "max32690_attens": "",
+            "max32690_step": "2",
 
             "do_max32690_wlp": "0",
             "max32690_wlp_pkglen_range": "250 0",
             "max32690_wlp_phy_range": "1 2 3 4",
-	    "max32690_wlp_attens": "",
+            "max32690_wlp_attens": "",
             "max32690_wlp_step": "0"
         }
     },

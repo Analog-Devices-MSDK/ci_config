@@ -79,9 +79,10 @@
 
     "max32665_board_w4": {
         "desc": "marked w4, MAX32665 110P WLP",
-        "id": "",
+        "DAP_sn": "0409000062c443c100000000000000000000000097969906",
+        "CN2": "/dev/serial/by-id/usb- -if00-port0",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "4"
+        "sw_state": "3"
     },
 
     "max32690_board_w1": {

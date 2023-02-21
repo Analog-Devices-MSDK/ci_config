@@ -1,0 +1,12 @@
+{
+    
+    "max32665" : {
+        "dbbFile" : "dbbRef665.json"
+    },
+    "max32655" : {
+        "dbbFile" : "dbbRef655.json"
+    },
+    "max32690" : {
+        "dbbFile" : "dbbRef690.json"
+    }
+}
