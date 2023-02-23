@@ -5,7 +5,7 @@
 
     "tests": {
         "simple_per_test.yml": {
-            "no_skip": "1",
+            "no_skip": "0",
 
             "commit_id": "",            
             "limit": "99.99",

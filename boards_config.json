@@ -5,7 +5,8 @@
 
     "max32570_board0": {
         "desc": "marked sn 0, for OpenOCD",
-        "daplink": "0409000080fe82cc00000000000000000000000097969906"
+        "daplink": "0409000080fe82cc00000000000000000000000097969906",
+        "lockfile":"max32570_board0.txt"
     },
 
     "max32655_board1": {
@@ -20,7 +21,13 @@
         "con_sn": "D309ZDFB",
         "hci_sn": "DT03O9WB",
         "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O9WB-if00-port0",
-        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDFB-if00-port0"
+        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDFB-if00-port0",
+        "ocdports" : {
+            "gdb" : "3550",
+            "tcl" : "4550",
+            "telnet": "6550"
+        },
+        "lockfile":"max32655_board1.txt"
     },
 
     "max32655_board2": {
@@ -35,7 +42,13 @@
         "con_sn": "D309ZDEM",
         "hci_sn": "DT03OFQ0",
         "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFQ0-if00-port0",
-        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEM-if00-port0"
+        "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEM-if00-port0",
+        "ocdports" : {
+            "gdb" : "3551",
+            "tcl" : "4551",
+            "telnet": "6551"
+        },
+       "lockfile":"max32655_board2.txt"
     },
 
     "max32655_board_2": {
@@ -50,7 +63,13 @@
         "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEP-if00-port0",
         "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OH8D-if00-port0",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "1"
+        "sw_state": "1",
+        "ocdports" : {
+            "gdb" : "3552",
+            "tcl" : "4552",
+            "telnet": "6552"
+        },
+        "lockfile":"max32655_board_2.txt"
     },
 
     "max32665_board1": {
@@ -59,7 +78,14 @@
         "uart1": "D30A1X9X",
         "uart0": "DT03O747",
         "con_sn": "D30A1X9X",
-        "hci_sn": "DT03O747"
+        "hci_sn": "DT03O747",
+        "ocdports" : {
+            "gdb" : "3650",
+            "tcl" : "4650",
+            "telnet": "6650"
+        },
+        "lockfile":"max32665_board1.txt"
+
     },
 
     "max32665_board_w3": {
@@ -74,7 +100,14 @@
         "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D3091LEX-if00-port0",
         "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O7LC-if00-port0",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "2"
+        "sw_state": "2",
+        "ocdports" : {
+            "gdb" : "3651",
+            "tcl" : "4651",
+            "telnet": "6651"
+        },
+        "lockfile":"max32665_board_w3.txt"
+
     },
 
     "max32665_board_w4": {
@@ -82,21 +115,39 @@
         "DAP_sn": "0409000062c443c100000000000000000000000097969906",
         "CN2": "/dev/serial/by-id/usb- -if00-port0",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "3"
+        "sw_state": "3",
+        "ocdports" : {
+            "gdb" : "3652",
+            "tcl" : "4652",
+            "telnet": "6652"
+        },
+        "lockfile":"max32665_board_w4.txt"
     },
 
     "max32690_board_w1": {
         "desc": "original sn 24, now changed to w1",
         "daplink": "04091702b55e4e9600000000000000000000000097969906",
         "uart2": "D30AKVTH",
-        "uart3": "04091702b55e4e9600000000000000000000000097969906"
+        "uart3": "04091702b55e4e9600000000000000000000000097969906",
+        "ocdports" : {
+            "gdb" : "3900",
+            "tcl" : "4900",
+            "telnet": "6900"
+        },
+     "lockfile":"max32690_board_w1.txt"
     },
 
     "max32690_board_old_w1": {
         "desc": "marked sn w1, for timing test, ...",
         "daplink": "040917014d8e03fc00000000000000000000000097969906",
         "uart2": "D30ALJPW",
-        "uart3": "040917014d8e03fc00000000000000000000000097969906"
+        "uart3": "040917014d8e03fc00000000000000000000000097969906",
+        "ocdports" : {
+            "gdb" : "3901",
+            "tcl" : "4901",
+            "telnet": "6901"
+        },
+       "lockfile":"max32690_board_old_w1.txt"
     },
 
     "max32690_board_w2": {
@@ -111,7 +162,13 @@
         "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJQ8-if00-port0",
         "hci_id": "/dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_0409170211cd0dd400000000000000000000000097969906-if01",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "4"
+        "sw_state": "4",
+        "ocdports" : {
+            "gdb" : "3902",
+            "tcl" : "4902",
+            "telnet": "6902"
+        },
+        "lockfile":"max32690_board_w2.txt"
     },
     
     "max32690_board_A1": {
@@ -126,7 +183,13 @@
         "hci_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJVK-if00-port0",
         "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALJVM-if00-port0",
         "sw_model": "USB-1SP16T-83H",
-        "sw_state": "6"
+        "sw_state": "6",
+        "ocdports" : {
+            "gdb" : "3903",
+            "tcl" : "4903",
+            "telnet": "6903"
+        },
+        "lockfile":"max32690_board_A1.txt"
     },
 
     "max32690_board_A5": {
@@ -141,7 +204,13 @@
         "con_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEN-if00-port0",
         "hci_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWEM-if00-port0",        
         "sw_model": "NOT CONNECTED",
-        "sw_state": "NOT CONNECTED"
+        "sw_state": "NOT CONNECTED",
+        "ocdports" : {
+            "gdb" : "3904",
+            "tcl" : "4904",
+            "telnet": "6904"
+        },
+        "lockfile":"max32690_board_A5.txt"
     },
 
     "max32690_board_A6": {
@@ -154,7 +223,13 @@
         "CN1_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWF5-if00-port0",
         "CN2_id": "/dev/serial/by-id/usb-FTDI_FT231X_USB_UART_D30ALWF6-if00-port0",
         "con_sn": "D30ALWF6",
-        "hci_sn": "D30ALWF5"
+        "hci_sn": "D30ALWF5",
+        "ocdports" : {
+            "gdb" : "3905",
+            "tcl" : "4905",
+            "telnet": "6905"
+        },
+        "lockfile":"max32690_board_A6.txt"
     },
 
     "nRF52840_1": {
@@ -162,7 +237,8 @@
         "DAP_sn": "1050234264",
         "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050234264-if00",
         "sw_model": "USB-1SP8T-63H",
-        "sw_state": "2"
+        "sw_state": "2",
+        "lockfile":"nRF52840_1.txt"
     },
 
     "nRF52840_2": {
@@ -170,7 +246,8 @@
         "DAP_sn": "1050288497",
         "hci_id": "/dev/serial/by-id/usb-SEGGER_J-Link_001050288497-if00",
         "sw_model": "NOT CONNECTED",
-        "sw_state": "NOT CONNECTED"
+        "sw_state": "NOT CONNECTED",
+        "lockfile":"nRF52840_2.txt"
     },
 
     "rsl15_1" : {
@@ -178,14 +255,15 @@
         "DAP_sn": "908805860",
         "hci_id" : "/dev/serial/by-id/usb-SEGGER_J-Link_000908805860-if00",
         "sw_model": "USB-1SP8T-63H",
-        "sw_state" : "3"
+        "sw_state" : "3",
+        "lockfile":"rsl15_1"
     },
 
     "RS_SA": {
         "desc": "Rhode and Schwarz spectrum analyzer",
-        "ip": "10.20.14.110",
         "sw_model": "USB-1SP8T-63H",
-        "sw_state": "1"
+        "sw_state": "1",
+        "lockfile":"RS_SA"
     },
 
     "sniffer_ying": {
@@ -204,7 +282,13 @@
         "con_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D3073IDG-if00-port0",
         "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFRJ-if00-port0",
         "sw_model": "NOT CONNECTED",
-        "sw_state": "NOT CONNECTED"
+        "sw_state": "NOT CONNECTED",
+        "ocdports" : {
+            "gdb" : "3552",
+            "tcl" : "4552",
+            "telnet": "6552"
+        },
+       "lockfile":"max32655_board_y1.txt"
     },                                                                                                      
 
     "max32655_board_y2": { 
@@ -218,7 +302,13 @@
         "uart3": "DT03NSU1",
         "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03NSU1-if00-port0",
         "con_sn": "D309ZDE9",
-        "hci_sn": "DT03NSU1"
+        "hci_sn": "DT03NSU1",
+        "ocdports" : {
+            "gdb" : "3553",
+            "tcl" : "4553",
+            "telnet": "6553"
+        },
+       "lockfile":"max32655_board_y2.txt"
     },
 
     "max32665_board_2": {
@@ -231,13 +321,25 @@
         "con_sn": "D30A1X9V",
         "hci_sn": "DT03OGQ4",
         "sw_model": "NOT CONNECTED",
-        "sw_state": "NOT CONNECTED"
+        "sw_state": "NOT CONNECTED",
+        "ocdports" : {
+            "gdb" : "3653",
+            "tcl" : "4653",
+            "telnet": "6653"
+        },
+        "lockfile":"max32665_board_2.txt"
     },
 
     "max32690_board_old_24_to_wall-e_w1": {
         "daplink": "04091702b55e4e9600000000000000000000000097969906",        
         "uart2": "D30AKVTH",
-        "uart3": "04091702b55e4e9600000000000000000000000097969906"
+        "uart3": "04091702b55e4e9600000000000000000000000097969906",
+        "ocdports" : {
+            "gdb" : "3906",
+            "tcl" : "4906",
+            "telnet": "6906"
+        },
+        "lockfile":"max32690_board_old_24_to_wall-e_w1.txt"
     },
 
     "max32690_board_3": {
@@ -250,6 +352,13 @@
         "uart2": "D30ALJPW",
         "uart3": "040917014d8e03fc00000000000000000000000097969906",
         "sw_model": "NOT CONNECTED",
-        "sw_state": "NOT CONNECTED"
+        "sw_state": "NOT CONNECTED",
+        "ocdports" : {
+            "gdb" : "3907",
+            "tcl" : "4907",
+            "telnet": "6907"
+        },
+        "lockfile":"max32690_board_3.txt"
+
     }
 }

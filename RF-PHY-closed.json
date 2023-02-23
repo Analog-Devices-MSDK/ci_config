@@ -1,24 +1,48 @@
 {
     "desc": "configurations for RF-PHY-closed CI tests.",
+    "DESC, step_and_time": "1, single board, 4.5 hrs. 2, 3 boars 5.5 hrs, 5, single board 40-50 mins, 20, 15-25  mins.",
+    "DESC, attens": "No whitespace between values",
 
     "tests": {
-        "test_per.yml": {
-            "no_skip": "1",
+        "simple_per.yml": {
+            "no_skip": "0",
+            
+            "repo_x":           "git@github.com:yc-adi/msdk_open.git",
+            "repo":             "",
+            "commit_id":        "",
+
+            "rf_phy_repo":    "git@github.com:yc-adi/RF-PHY-closed-yc.git",
+            "rf_phy_commit_id": "d5ae036",
+
+            "msdk_only": "1",
+
+            "limit":        "99.99",
+            "retry_limit":  4,
+            "start_time":   "",
+            
+            "do_max32655":           "1",
+            "max32655_pkglen_range": "250",
+            "max32655_phy_range":    "1 3",
+            "max32655_attens":       "20,90",
+            "max32655_step":         "0",
     
-            "do_max32655": "1",
-            "max32655_pkglen_range": "250 0",
-            "max32655_phy_range": "1 2 3 4",
-            "max32655_step": "0",
+            "do_max32665":           "1",
+            "max32665_pkglen_range": "250",
+            "max32665_phy_range":    "1 3",
+            "max32665_attens":       "70,90",
+            "max32665_step":         "0",
     
-            "do_max32665": "1",
-            "max32665_pkglen_range": "250 0",
-            "max32665_phy_range": "1 2 3 4",
-            "max32665_step": "0",
-    
-            "do_max32690": "1",
-            "max32690_pkglen_range": "250 0",
-            "max32690_phy_range": "1 2 3 4",
-            "max32690_step": "0"
+            "do_max32690":           "1",
+            "max32690_pkglen_range": "250",
+            "max32690_phy_range":    "1 3",
+            "max32690_attens":       "70,90",
+            "max32690_step":         "0",
+
+            "do_max32690_wlp":           "0",
+            "max32690_wlp_pkglen_range": "250",
+            "max32690_wlp_phy_range":    "1 3",
+            "max32690_wlp_attens":       "70,90",
+            "max32690_wlp_step":         "0"
         },
 
         "full_per_test.yml": {
@@ -67,6 +91,52 @@
             "max32690_wlp_pkglen_range": "250 0",
             "max32690_wlp_phy_range": "1",
             "max32690_wlp_step": "0"
+        }
+    },
+
+    "used_boards": {
+        "wall-e": {
+            "max32655": [
+                "nRF52840_1",
+                "max32655_board_2"
+            ],
+
+            "max32665": [
+                "nRF52840_1",
+                "max32665_board_w3"
+            ],
+
+            "max32690": [
+                "nRF52840_1",
+                "max32690_board_w2"
+            ],
+
+            "max32690_wlp": [
+                "nRF52840_1",
+                "max32690_board_A1"
+            ]
+        },
+
+        "yingcai-OptiPlex-790": {
+            "max32655": [
+                "nRF52840_2",
+                "max32655_board_y1"
+            ],
+
+            "max32665": [
+                "nRF52840_2",
+                "max32665_board_2"
+            ],
+
+            "max32690": [
+                "nRF52840_2",
+                "max32690_board_3"
+            ],
+
+            "max32690_wlp": [
+                "nRF52840_2",
+                "max32690_board_A5"
+            ]
         }
     }
 }
