@@ -7,6 +7,7 @@
         "desc": "marked sn 0, for OpenOCD",
         "daplink": "0409000080fe82cc00000000000000000000000097969906",
         "lockfile":"max32570_board0.txt"
+        
     },
 
     "max32655_board1": {
@@ -21,13 +22,15 @@
         "con_sn": "D309ZDFB",
         "hci_sn": "DT03O9WB",
         "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O9WB-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03O9WB-if00-port0",
         "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDFB-if00-port0",
         "ocdports" : {
             "gdb" : "3550",
             "tcl" : "4550",
             "telnet": "6550"
         },
-        "lockfile":"max32655_board1.txt"
+        "lockfile":"max32655_board1.txt",
+        "dbbfile" : "max32655_board1_dbb.json"
     },
 
     "max32655_board2": {
@@ -42,13 +45,15 @@
         "con_sn": "D309ZDEM",
         "hci_sn": "DT03OFQ0",
         "hci": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFQ0-if00-port0",
+        "hci_id": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DT03OFQ0-if00-port0",
         "con": "/dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_D309ZDEM-if00-port0",
         "ocdports" : {
             "gdb" : "3551",
             "tcl" : "4551",
             "telnet": "6551"
         },
-       "lockfile":"max32655_board2.txt"
+       "lockfile":"max32655_board2.txt",
+       "dbbfile" : "max32655_board2.json"
     },
 
     "max32655_board_2": {
@@ -69,7 +74,9 @@
             "tcl" : "4552",
             "telnet": "6552"
         },
-        "lockfile":"max32655_board_2.txt"
+        "lockfile":"max32655_board_2.txt",
+        "dbbfile":"max32655_board_2.json"
+
     },
 
     "max32665_board1": {
@@ -84,8 +91,9 @@
             "tcl" : "4650",
             "telnet": "6650"
         },
-        "lockfile":"max32665_board1.txt"
-
+        "lockfile":"max32665_board1.txt",
+        "dbbfile":"max32665_board1.json"
+        
     },
 
     "max32665_board_w3": {
@@ -106,8 +114,9 @@
             "tcl" : "4651",
             "telnet": "6651"
         },
-        "lockfile":"max32665_board_w3.txt"
-
+        "lockfile":"max32665_board_w3.txt",
+        "dbbfile":"max32665_board_w3.json"
+        
     },
 
     "max32665_board_w4": {
@@ -121,7 +130,9 @@
             "tcl" : "4652",
             "telnet": "6652"
         },
-        "lockfile":"max32665_board_w4.txt"
+        "lockfile":"max32665_board_w4.txt",
+        "dbbfile":"max32665_board_w4.json"
+
     },
 
     "max32690_board_w1": {
@@ -134,7 +145,9 @@
             "tcl" : "4900",
             "telnet": "6900"
         },
-     "lockfile":"max32690_board_w1.txt"
+     "lockfile":"max32690_board_w1.txt",
+     "dbbfile":"max32690_board_w1.json"
+
     },
 
     "max32690_board_old_w1": {
@@ -147,7 +160,9 @@
             "tcl" : "4901",
             "telnet": "6901"
         },
-       "lockfile":"max32690_board_old_w1.txt"
+       "lockfile":"max32690_board_old_w1.txt",
+       "dbbfile":"max32690_board_old_w1.json"
+
     },
 
     "max32690_board_w2": {
@@ -168,7 +183,9 @@
             "tcl" : "4902",
             "telnet": "6902"
         },
-        "lockfile":"max32690_board_w2.txt"
+        "lockfile":"max32690_board_w2.txt",
+        "dbbfile":"max32690_board_w2.json"
+
     },
     
     "max32690_board_A1": {
@@ -189,7 +206,9 @@
             "tcl" : "4903",
             "telnet": "6903"
         },
-        "lockfile":"max32690_board_A1.txt"
+        "lockfile":"max32690_board_A1.txt",
+        "dbbfile":"max32690_board_A1.json"
+
     },
 
     "max32690_board_A5": {
@@ -210,7 +229,9 @@
             "tcl" : "4904",
             "telnet": "6904"
         },
-        "lockfile":"max32690_board_A5.txt"
+        "lockfile":"max32690_board_A5.txt",
+        "dbbfile":"max32690_board_A5.json"
+
     },
 
     "max32690_board_A6": {
@@ -229,7 +250,9 @@
             "tcl" : "4905",
             "telnet": "6905"
         },
-        "lockfile":"max32690_board_A6.txt"
+        "lockfile":"max32690_board_A6.txt",
+        "dbbfile":"max32690_board_A6.json"
+
     },
 
     "nRF52840_1": {
@@ -256,14 +279,14 @@
         "hci_id" : "/dev/serial/by-id/usb-SEGGER_J-Link_000908805860-if00",
         "sw_model": "USB-1SP8T-63H",
         "sw_state" : "3",
-        "lockfile":"rsl15_1"
+        "lockfile":"rsl15_1.txt"
     },
 
     "RS_SA": {
         "desc": "Rhode and Schwarz spectrum analyzer",
         "sw_model": "USB-1SP8T-63H",
         "sw_state": "1",
-        "lockfile":"RS_SA"
+        "lockfile":"RS_SA.txt"
     },
 
     "sniffer_ying": {
@@ -359,6 +382,10 @@
             "telnet": "6907"
         },
         "lockfile":"max32690_board_3.txt"
+    },
 
+    "minicircuits_rf_switch": {
+        "desc": "one lock file is enough for the two switches",
+        "lockfile": "minicircuits_rf_switch.txt"
     }
 }
